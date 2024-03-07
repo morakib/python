@@ -1,0 +1,20 @@
+list1=[1,2,[3,4],'alu','mara khawa sesh']
+print(list1)
+list1[4]='hage ay'
+print(list1)
+for x in list1:
+    print(x)
+#list are like list of anything,can be changes anywhere
+
+tuple1=('parrot','sparrow')
+print(tuple1)
+#tuples are immutable
+
+
+dict1={'name':'morakib','roll':'2103065','dept':'CSE'}
+print(dict1)
+dict1['name']='drishty'
+dict1['dept']='CSE'
+dict1['roll']='2103074'
+print(dict1)
+#dictionary are like maps,mutable
